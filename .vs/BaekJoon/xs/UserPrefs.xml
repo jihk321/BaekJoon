@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9CEC2AC6-7A89-40F6-86DF-010EDB7C5F1F}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BaekJoon PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrintStar.cs">
+    <Files>
+      <File FileName="LuckyDVD.cs" Line="1" Column="1" />
+      <File FileName="DVD.cs" Line="1" Column="1" />
+      <File FileName="System.cs" Line="14" Column="8" />
+      <File FileName="VowelCount.cs" Line="17" Column="12" />
+      <File FileName="PrintStar.cs" Line="34" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaekJoon" expanded="True">
+            <Node name="BaekJoon" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="PrintStar.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
