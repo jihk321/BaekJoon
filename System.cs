@@ -7,9 +7,9 @@ namespace BaekJoon;
 
 public class System
 {
-    //public static void Main(string[] args)
-    //{
-        //PrintStar star = new PrintStar();
-        //star.Print();
-    //}
+    public static void Main(string[] args)
+    {
+        YourGrade yourGrade = new YourGrade();
+        yourGrade.Start();
+    }
 }

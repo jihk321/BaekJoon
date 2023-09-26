@@ -3,48 +3,42 @@ namespace BaekJoon
 {
     public class PrintStar
     {
-        static int num;
-        public static void Input()
-        {
-            int.TryParse(Console.ReadLine(), out num);
-        }
+        // static int num;
 
-        public static void Main()
-        {
-            Input();
+        // public static void Print(int standard, int star)
+        // {
+        //     for (int j = 1; j <= standard; j++)
+        //     {
+        //         if (j <= num - star || j >= num + star)
+        //             Console.Write(" ");
+        //         else
+        //             Console.Write("*");
+        //     }
+        // }
 
-            int standard = 2 * num - 1;
-            int star = 1;
+        //         public static void Main()
+        //         {
+        // #nullable disable
+        //             num = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < num; i++)
-            {
-                for (int j = 1; j <= standard; j++)
-                {
-                    if (j <= num - star || j >= num + star)
-                        Console.Write(" ");
-                    else
-                        Console.Write("*");
-                }
+        //             int standard = 2 * num - 1;
+        //             int star = 0;
 
-                if (i != num) star++;
-                Console.Write("\n");
-            }
+        //             for (int i = 0; i < num; i++)
+        //             {
+        //                 ++star;
+        //                 Print(standard, star);
 
-            for (int k = 1; k < num; k++)
-            {
-                star--;
+        //                 Console.WriteLine();
+        //             }
 
-                for (int j = 1; j <= standard; j++)
-                {
-                    if (j <= num - star || j >= num + star)
-                        Console.Write(" ");
-                    else
-                        Console.Write("*");
+        //             for (int k = 1; k < num; k++)
+        //             {
+        //                 --star;
+        //                 Print(standard, star);
 
-                }
-                Console.Write("\n");
-            }
-        }
+        //                 Console.WriteLine();
+        //             }
+        //         }
     }
 }
-
