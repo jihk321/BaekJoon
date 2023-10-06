@@ -9,7 +9,7 @@ public class System
 {
     public static void Main(string[] args)
     {
-        YourGrade yourGrade = new YourGrade();
-        yourGrade.Start();
+        Snake snake = new Snake();
+        snake.main();
     }
 }
